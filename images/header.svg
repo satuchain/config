@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="SatuChain animated header">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2F6BFF"></stop>
+      <stop offset="0.55" stop-color="#58B7FF"></stop>
+      <stop offset="1" stop-color="#7C4DFF"></stop>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0" stop-color="#2F6BFF" stop-opacity="0.55"></stop>
+      <stop offset="0.55" stop-color="#58B7FF" stop-opacity="0.22"></stop>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"></stop>
+    </radialGradient>
+
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="18"></feGaussianBlur>
+    </filter>
+
+    <filter id="softShadow" x="-20%" y="-50%" width="140%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#2F6BFF" flood-opacity="0.22"></feDropShadow>
+    </filter>
+
+    <!-- subtle grain (very light, still lightweight) -->
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"></feTurbulence>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 .06 0" result="a"></feColorMatrix>
+      <feBlend in="SourceGraphic" in2="a" mode="overlay"></feBlend>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="220" rx="24" fill="#0B1020"></rect>
+  <rect width="1200" height="220" rx="24" fill="url(#g)" opacity="0.05"></rect>
+  <g filter="url(#grain)"><rect width="1200" height="220" rx="24" fill="transparent"></rect></g>
+
+  <!-- animated glow blobs -->
+  <g filter="url(#blur)">
+    <circle cx="260" cy="110" r="95" fill="url(#glow)">
+      <animate attributeName="cx" values="240;290;240" dur="6s" repeatCount="indefinite"></animate>
+      <animate attributeName="r" values="90;108;90" dur="6s" repeatCount="indefinite"></animate>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="6s" repeatCount="indefinite"></animate>
+    </circle>
+    <circle cx="940" cy="120" r="105" fill="url(#glow)" opacity="0.8">
+      <animate attributeName="cx" values="960;910;960" dur="7s" repeatCount="indefinite"></animate>
+      <animate attributeName="r" values="96;114;96" dur="7s" repeatCount="indefinite"></animate>
+      <animate attributeName="opacity" values="0.75;0.50;0.75" dur="7s" repeatCount="indefinite"></animate>
+    </circle>
+  </g>
+
+  <!-- neon strokes -->
+  <g opacity="0.22">
+    <path d="M70 160 C 260 80, 430 80, 610 160" stroke="url(#g)" stroke-width="2" fill="none"></path>
+    <path d="M590 70 C 770 150, 940 150, 1130 70" stroke="url(#g)" stroke-width="2" fill="none"></path>
+  </g>
+
+  <!-- Logo: uses your PNG directly -->
+  <g transform="translate(78 60)" filter="url(#softShadow)">
+    <image href="https://raw.githubusercontent.com/satuchain/config/refs/heads/main/logo/logo.png" x="0" y="0" width="92" height="92" preserveAspectRatio="xMidYMid meet"></image>
+    <!-- subtle ring -->
+    <circle cx="46" cy="46" r="48" fill="none" stroke="url(#g)" stroke-width="2" opacity="0.55"></circle>
+  </g>
+
+  <!-- Title -->
+  <g transform="translate(190 82)">
+    <text x="0" y="36" font-family="ui-sans-serif,system-ui,Segoe UI,Roboto,Arial" font-size="46" font-weight="900" fill="#EEF3FF" letter-spacing="0.5">
+      SatuChain
+    </text>
+
+    <text x="0" y="68" font-family="ui-sans-serif,system-ui,Segoe UI,Roboto,Arial" font-size="15.5" font-weight="600" fill="#AAB6DA">
+      Build. Connect. Scale. • Product-first Web3 ecosystem
+    </text>
+  </g>
+
+  <!-- shimmer sweep -->
+  <rect x="-260" y="0" width="210" height="220" fill="url(#g)" opacity="0.10" transform="skewX(-18)">
+    <animate attributeName="x" values="-260;1400" dur="5.4s" repeatCount="indefinite"></animate>
+  </rect>
+</svg>
