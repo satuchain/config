@@ -1,0 +1,41 @@
+{
+  "name": "SATUCHAIN Testnet Token List",
+  "logoURI": "https://raw.githubusercontent.com/satuchain/config/main/tokenlist/satutestnet/satuchain.png",
+  "keywords": ["satuchain", "satu", "testnet", "tstu", "wstu"],
+  "timestamp": "2026-02-17T00:00:00Z",
+  "version": { "major": 1, "minor": 0, "patch": 0 },
+  "tokens": [
+    {
+      "name": "Satu Testnet Native",
+      "symbol": "tSTU",
+      "address": "0x0000000000000000000000000000000000000000",
+      "chainId": 17081945,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/satuchain/config/main/tokenlist/satutestnet/tstu.png"
+    },
+    {
+      "name": "Wrapped STU",
+      "symbol": "WSTU",
+      "address": "0x9D863c0Fe98e425054C72Ebdc50655742001c5D1",
+      "chainId": 17081945,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/satuchain/config/main/tokenlist/satutestnet/wstu.png"
+    },
+    {
+      "name": "ALP",
+      "symbol": "ALP",
+      "address": "0xce19ca0d0e9ec60655e47fff178670a003fcb1d7",
+      "chainId": 17081945,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/satuchain/config/main/tokenlist/satutestnet/alp.png"
+    },
+    {
+      "name": "Gatotkaca",
+      "symbol": "GTK",
+      "address": "0xcca27b6aa4173404a94a1c94931654acb8248c10",
+      "chainId": 17081945,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/satuchain/config/main/tokenlist/satutestnet/gatotkaca.png"
+    }
+  ]
+}
