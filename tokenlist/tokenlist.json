@@ -11,7 +11,7 @@
       "address": "0x0000000000000000000000000000000000000000",
       "chainId": 17081945,
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/satuchain/config/main/tokenlist/satutestnet/tstu.png"
+      "logoURI": "https://raw.githubusercontent.com/satuchain/config/refs/heads/main/tokenlist/satutestnet/native.png"
     },
     {
       "name": "Wrapped STU",
@@ -19,7 +19,7 @@
       "address": "0x9D863c0Fe98e425054C72Ebdc50655742001c5D1",
       "chainId": 17081945,
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/satuchain/config/main/tokenlist/satutestnet/wstu.png"
+      "logoURI": "https://raw.githubusercontent.com/satuchain/config/refs/heads/main/tokenlist/satutestnet/wstu.png"
     },
     {
       "name": "ALP",
@@ -27,7 +27,7 @@
       "address": "0xce19ca0d0e9ec60655e47fff178670a003fcb1d7",
       "chainId": 17081945,
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/satuchain/config/main/tokenlist/satutestnet/alp.png"
+      "logoURI": "https://raw.githubusercontent.com/satuchain/config/refs/heads/main/tokenlist/satutestnet/alpha.png"
     },
     {
       "name": "Gatotkaca",
@@ -35,7 +35,7 @@
       "address": "0xcca27b6aa4173404a94a1c94931654acb8248c10",
       "chainId": 17081945,
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/satuchain/config/main/tokenlist/satutestnet/gatotkaca.png"
+      "logoURI": "https://raw.githubusercontent.com/satuchain/config/refs/heads/main/tokenlist/satutestnet/gatotkaca.jpg"
     }
   ]
 }
