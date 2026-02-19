@@ -44,6 +44,14 @@
       "chainId": 17081945,
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/satuchain/config/refs/heads/main/tokenlist/satutestnet/ronin.png"
+    },
+		{
+      "name": "USD SatuChain",
+      "symbol": "USTU",
+      "address": "0x96fcb228f5a348171598224f1d76008af38a631a",
+      "chainId": 17081945,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/satuchain/config/refs/heads/main/tokenlist/satutestnet/USTU.png"
     }
   ]
 }
