@@ -36,6 +36,14 @@
       "chainId": 17081945,
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/satuchain/config/refs/heads/main/tokenlist/satutestnet/gatotkaca.jpg"
+    },
+	{
+      "name": "Ronin",
+      "symbol": "RNN",
+      "address": "0xcca27b6aa4173404a94a1c94931654acb8248c10",
+      "chainId": 17081945,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/satuchain/config/refs/heads/main/tokenlist/satutestnet/ronin.png"
     }
   ]
 }
