@@ -45,10 +45,26 @@
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/satuchain/config/refs/heads/main/tokenlist/satutestnet/ronin.png"
     },
-		{
+	{
       "name": "USD SatuChain",
       "symbol": "USTU",
       "address": "0x96fcb228f5a348171598224f1d76008af38a631a",
+      "chainId": 17081945,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/satuchain/config/refs/heads/main/tokenlist/satutestnet/USTU.png"
+    },
+	{
+      "name": "USDT SatuChain",
+      "symbol": "USDT",
+      "address": "0xE3717Be7aC5f4dD7118eE0a1b127D8270E3A3d01",
+      "chainId": 17081945,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/satuchain/config/refs/heads/main/tokenlist/satutestnet/USTU.png"
+    },
+	{
+      "name": "USDC SatuChain",
+      "symbol": "USDC",
+      "address": "0xb57558E263Fb3789F398faAb45e16C2671AC1044",
       "chainId": 17081945,
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/satuchain/config/refs/heads/main/tokenlist/satutestnet/USTU.png"
