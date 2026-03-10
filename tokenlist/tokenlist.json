@@ -30,6 +30,14 @@
       "logoURI": "https://raw.githubusercontent.com/satuchain/config/refs/heads/main/tokenlist/satutestnet/alpha.png"
     },
     {
+      "name": "Nusantara Token",
+      "symbol": "NST",
+      "address": "0x127b409b1c83e15272044036a9056a9cc349e479",
+      "chainId": 17081945,
+      "decimals": 18,
+      "logoURI": "https://testnet.satuchain.com/upload-asset/logos/0x127b409b1c83e15272044036a9056a9cc349e479.png"
+    },
+    {
       "name": "Gatotkaca",
       "symbol": "GTK",
       "address": "0xcca27b6aa4173404a94a1c94931654acb8248c10",
@@ -40,7 +48,7 @@
 	{
       "name": "Ronin",
       "symbol": "RNN",
-      "address": "0xcca27b6aa4173404a94a1c94931654acb8248c10",
+      "address": "0x6e807d71cf5a40608ea13e3f685a35d375c622ff",
       "chainId": 17081945,
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/satuchain/config/refs/heads/main/tokenlist/satutestnet/ronin.png"
