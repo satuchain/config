@@ -1,0 +1,25 @@
+{
+  "name": "SATUCHAIN Mainnet Token List",
+  "logoURI": "https://raw.githubusercontent.com/satuchain/config/main/tokenlist/satumainnet/native.png",
+  "keywords": ["satuchain", "satu", "mainnet", "stu", "wstu"],
+  "timestamp": "2026-04-07T00:00:00Z",
+  "version": { "major": 1, "minor": 0, "patch": 0 },
+  "tokens": [
+    {
+      "name": "STU Native",
+      "symbol": "STU",
+      "address": "0x0000000000000000000000000000000000000000",
+      "chainId": 10111945,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/satuchain/config/main/tokenlist/satumainnet/native.png"
+    },
+    {
+      "name": "USDT SatuChain",
+      "symbol": "USDT",
+      "address": "0xb7d0ba3c125cba8a5b32dded0d2cd072fe4ed81a",
+      "chainId": 10111945,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/satuchain/config/main/tokenlist/satumainnet/usdt.png"
+    }
+  ]
+}
